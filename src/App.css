@@ -194,11 +194,42 @@ background-image: url(https://images.pexels.com/photos/450055/pexels-photo-45005
   text-align: center ;
 }
 .sect-div{
+  justify-content: center;
+  text-align: center;
  flex-wrap: wrap;   
   gap: 10px; 
   display: flex;
-  margin-left: 120px;
+  
 }
 .img-box-box{
   border-radius: 50px;
+}
+.prof{
+  text-shadow: 2px 2px 11px #ff6303;
+  font-size: 40px;
+  color: white;
+}.menu-main2{
+  justify-content: center;
+  text-align: center;
+ flex-wrap: wrap;   
+  gap: 10px; 
+  display: flex;
+  height: 950px;
+  background-size: 100%;
+   margin: 0;
+ padding: 0;
+background-image: url(https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg);
+}
+.sect-prof{
+  height: 100px;
+}
+.p-prof{
+  text-shadow: 2px 2px 11px #ff6303;
+  margin-bottom: 100px;
+  font-size: 50px;
+  color: white;
+}
+.img-prof{
+  margin-top: 50px;
+height: 100px;
 }
