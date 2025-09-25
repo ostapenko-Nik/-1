@@ -1,0 +1,37 @@
+h2{
+    font-size: 35px;
+    text-align: center;
+}
+.sect-main{
+
+    height: 520px;
+    margin-left: 110px;
+  display: flex;
+}
+.main-div{
+    display: flex;
+}
+.div-text{
+    margin-top: 11px;
+    left: 50%;
+    position: absolute;
+    font-size: 27px;
+    width: 700px;
+}
+.img-sect{
+    margin-top: 10px;
+    border-radius: 2vw;
+}
+.div-text2{
+    margin-top: 11px;
+
+    position: absolute;
+    font-size: 27px;
+    width: 700px;
+}
+.img2{
+    left: 50%;
+    position: absolute;
+    margin-top: 10px;
+    border-radius: 2vw;
+}

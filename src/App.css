@@ -1,0 +1,204 @@
+    @font-face {
+      font-family: 'URW Chancery L';
+      src: url('fonts/URWChanceryL-Bold.woff2') format('woff2'),
+           url('fonts/URWChanceryL-Bold.woff') format('woff');
+      font-weight: bold; /* Adjust as needed for specific font styles */
+      font-style: normal;
+    }
+
+    @font-face {
+      font-family: 'URW Chancery L';
+      src: url('fonts/URWChanceryL-Italic.woff2') format('woff2'),
+           url('fonts/URWChanceryL-Italic.woff') format('woff');
+      font-weight: normal;
+      font-style: italic;
+    }
+body {
+  font-family: cursive;
+  margin: 0;
+  padding: 0;
+}
+.a-nav{
+
+  text-shadow: 2px 2px 11px #f26d00;
+  transition: all 0.5s;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 27px;
+ 
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.a-nav:hover{
+  transition: all 0.2s;
+  color: rgb(172, 172, 172);
+
+}
+header{
+  
+  
+  height: 600px;
+  width: 100%;
+ 
+  background-position: 100px;
+  background-size: cover;
+}
+.black{
+  background-color: rgba(0, 0, 0, 0.308);
+  height: 500px;
+  width: 100%;
+  
+}
+.nav-a{
+
+ padding: 0;
+ margin: 0;
+
+ background-color: black;
+  display: flex;
+  text-align: center;
+}
+.name{
+  margin-top: 11px;
+  margin-left: 120px;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+.div-nav{
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+h1{
+  text-shadow: 2px 2px 11px #f26d00;
+  margin-left: 110px;
+  font-size: 80px;
+  color: white;
+}
+.but-1:hover{
+  font-size: 22px;
+   transition: all 0.3s;
+  width: 260px;
+  height: 60px;
+}
+.but-1:active{
+color: grey;
+border: rgb(179, 179, 179) 0.1px solid;
+
+}
+.but-1{
+  text-shadow: 2px 2px 11px #f26d00;
+   transition: all 0.4s;
+  -webkit-box-shadow: 0px -2px 35px 6px rgba(255, 255, 255, 0.2) inset;
+-moz-box-shadow: 0px -2px 35px 6px rgba(255, 255, 255, 0.2) inset;
+box-shadow: 0px -2px 35px 6px rgba(255, 255, 255, 0.2) inset;
+  border-radius: 10px;
+  border: white 0.1px solid;
+  color: white;
+  background-color: black;
+  margin-left: 110px;
+  height: 50px;
+  font-size: 20px;
+  width: 250px;
+}
+.info {
+  margin-left: 120px;
+  flex: 2 1 400px; /* в 2 раза шире, минимум 400px */
+  color: white;
+  font-size: 22px;
+  text-shadow: 2px 2px 11px #f26d00;
+  margin-top: 80px; /* можно подкорректировать при необходимости */
+  word-wrap: break-word; /* перенос слов */
+}
+.dis {
+  height: 500px;
+  background-position: 100px;
+  background-size: cover;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/chashka_chaj_tsvety_151673_1280x720.jpg);
+  display: flex;
+  gap: 20px;
+  max-width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+  align-items: flex-start; 
+  }
+.did{
+  height: 100%;
+}
+
+h6{
+  text-shadow: 2px 2px 11px #f26d00;
+  margin-left: 110px;
+
+  color: white;
+}.menu {
+ 
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.menu p {
+  margin: 0;   /* убираем отступ у параграфа */
+  padding: 0;
+}
+.black1{
+  height: 100px;
+  background-color: rgb(240, 2, 2);
+}
+.p-name{
+  text-shadow: 2px 2px 11px #f26d00;
+  font-size: 50px;
+  text-align: center;
+}
+.menu-main{
+  height: 1350px;
+  background-size: 100%;
+   margin: 0;
+ padding: 0;
+background-image: url(https://images.pexels.com/photos/450055/pexels-photo-450055.jpeg);
+}
+.div-box{ 
+  margin-bottom: 25px;
+  margin-right: 100px;
+   overflow: hidden;   
+  word-wrap: break-word; 
+  text-shadow: 2px 2px 11px #f26d00;
+  border-radius: 20px;
+  height:380px;
+  width: 300px;
+  transition: all 0.5s;
+  background-color: rgba(99, 99, 99, 0.542);
+}
+.div-box:hover{
+ text-shadow: 2px 2px 11px #ff6303;
+  width: 320px;
+   height:390px;
+   background-color: rgba(99, 99, 99, 0.847);
+   transition: all 0.5s;
+}
+.text-box{
+   
+
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+.img-box{
+  height: 250px;
+  border-radius: 20px;
+  padding-top: 20px;
+  border-radius: 100px;
+  text-align: center ;
+}
+.sect-div{
+ flex-wrap: wrap;   
+  gap: 10px; 
+  display: flex;
+  margin-left: 120px;
+}
+.img-box-box{
+  border-radius: 50px;
+}
